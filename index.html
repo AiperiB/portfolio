@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <!-- Header / Navigation -->
     <header>
-        <div class="container">
-            <h1>My Portfolio</h1>
+        <div class="container header-container">
+            <h1 class="logo">My Portfolio</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -24,9 +24,32 @@
 
     <!-- About Section -->
     <section id="about" class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h2>Hello, welcome to my personal showcase.</h2>
+                <p>I specialize in building interactive web applications and data visualization. Explore some of my featured work below!</p>
+            </div>
+            <div class="hero-image">
+                <!-- Replace 'profile.jpg' with your actual image path later -->
+                <img src="moooooon.jpg" alt=" MY NAME" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
         <div class="container">
-            <h2>Hello, I'm a Computer Science Student & Developer</h2>
-            <p>Welcome to my personal showcase. I specialize in building interactive web applications, data visualizations, and exploring hardware architecture. Explore some of my featured work below!</p>
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Technical</h3>
+                    <p>HTML, CSS, JavaScript, D3.js, Python, C++</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Platforms</h3>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -35,28 +58,18 @@
         <div class="container">
             <h2>Featured Projects</h2>
             <div class="project-grid">
-                
                 <!-- Project Card 1 -->
                 <div class="project-card">
+                    <div class="project-tag">Data Visualization</div>
                     <h3>Data Center Economic Impact</h3>
-                    <p>An interactive data visualization built with D3.js analyzing the resource consumption and economic trends of data centers across the United States.</p>
-                    <a href="#" class="btn">View Project</a>
+                    <p>A collaborative data visualization project analyzing the economic impact and resource consumption trends of data centers across the United States.</p>
                 </div>
-
                 <!-- Project Card 2 -->
                 <div class="project-card">
-                    <h3>Student Alcohol Consumption Dashboard</h3>
-                    <p>A multi-dimensional analysis dashboard utilizing D3.js script to evaluate student datasets and behavioral trends.</p>
-                    <a href="#" class="btn">View Project</a>
+                    <div class="project-tag">Web Application</div>
+                    <h3>Student Analytics Dashboard</h3>
+                    <p>An interactive, multi-dimensional analysis dashboard utilizing student datasets and customizable D3.js scripts.</p>
                 </div>
-
-                <!-- Project Card 3 -->
-                <div class="project-card">
-                    <h3>Firmware & Digital Logic Designs</h3>
-                    <p>A collection of hardware circuit designs, finite state machines (FSMs), and cache mapping logic architectures.</p>
-                    <a href="#" class="btn">View Details</a>
-                </div>
-
             </div>
         </div>
     </section>
@@ -65,15 +78,16 @@
     <section id="contact" class="contact-section">
         <div class="container">
             <h2>Get In Touch</h2>
-            <p>Interested in collaborating or want to chat about tech? Feel free to reach out!</p>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        </div>
+            <p>I'm always looking to collaborate on interesting projects or explore new opportunities.</p>
+            <div class="contact-buttons">
+                <a href="mailto:aiperibkova@gmail.com" class="btn">Email Me</a>
+                <!-- Replace the # URL below with your actual LinkedIn profile link -->
+                <a href="https://www.linkedin.com/in/aiperi-baktybekova-812512204/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LinkedIn</a>
+            </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <p>&copy; 2026 My Portfolio. Built with passion.</p>
     </footer>
-
 </body>
 </html>
