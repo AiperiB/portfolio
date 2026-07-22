@@ -229,6 +229,24 @@ section h2::after {
     font-size: 0.95rem;
 }
 
+.project-view-btn {
+    display: inline-block;
+    margin-top: 1.25rem;
+    padding: 0.6rem 1.1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, var(--accent-blue), var(--accent-pink));
+    transition: var(--transition);
+}
+
+.project-view-btn:hover {
+    opacity: 0.92;
+    transform: translateY(-1px);
+}
+
 /* Contact Section */
 .contact-section {
     text-align: center;
